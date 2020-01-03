@@ -101,7 +101,7 @@ button_dot = Button(root, text=".", padx=32, pady=15, command=lambda:myButton(".
 
 # Arthemetic operations
 
-button_add = Button(root, text="+", padx=30, pady=15, command=lambda:myButton_add())
+button_add = Button(root, text="+", padx=27, pady=15, command=lambda:myButton_add())
 button_sub = Button(root, text="-", padx=30, pady=15, command=lambda:myButton_sub())
 button_multi = Button(root, text="*", padx=30, pady=15, command=lambda:myButton_multi())
 button_div = Button(root, text="/", padx=30, pady=15, command=lambda:myButton_div())
@@ -109,7 +109,7 @@ button_mod = Button(root, text="%", padx=30, pady=15, command=lambda:myButton_mo
 
 button_equal = Button(root, text="=", padx=30, pady=15, command=lambda:myButton_equal())
 button_clear = Button(root, text="C", padx=30, pady=15, command=lambda:myButton_clear())
-button_rmv = Button(root, text="<-", padx=30, pady=15, command=lambda:myButton_rmv())
+button_rmv = Button(root, text="<-", padx=26, pady=15, command=lambda:myButton_rmv())
 
 # Button's Grids
 
@@ -133,9 +133,9 @@ button_dot.grid(row=4,column=0)
 button_add.grid(row=4,column=3)
 button_equal.grid(row=4,column=2)
 
-button_clear.grid(row=6,column=0)
-button_rmv.grid(row=6,column=1)
-button_mod.grid(row=6,column=2)
+button_clear.grid(row=5,column=0)
+button_rmv.grid(row=5,column=1)
+button_mod.grid(row=5,column=2)
 
 
 
