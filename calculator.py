@@ -103,6 +103,11 @@ button_9 = Button(root, text="9", padx=30, pady=15, command=lambda:myButton(9))
 button_0 = Button(root, text="0", padx=30, pady=15, command=lambda:myButton(0))
 button_dot = Button(root, text=".", padx=32, pady=15, command=lambda:myButton("."))
 
+button_dot = Button(root, text=".", padx=32, pady=15, command=lambda:myButton("."))
+button_dot = Button(root, text=".", padx=32, pady=15, command=lambda:myButton("."))
+button_dot = Button(root, text=".", padx=32, pady=15, command=lambda:myButton("."))
+button_dot = Button(root, text=".", padx=32, pady=15, command=lambda:myButton("."))
+
 
 
 
