@@ -82,7 +82,12 @@ def myButton_equal():
         ent.insert(0, float(f_num) % float(second_number))
 
 
+
+
 # Button Initialise 
+
+
+
 button_1 = Button(root, text="1", padx=30, pady=15, command=lambda:myButton(1))
 button_2 = Button(root, text="2", padx=30, pady=15, command=lambda:myButton(2))
 button_3 = Button(root, text="3", padx=30, pady=15, command=lambda:myButton(3))
@@ -99,6 +104,8 @@ button_0 = Button(root, text="0", padx=30, pady=15, command=lambda:myButton(0))
 button_dot = Button(root, text=".", padx=32, pady=15, command=lambda:myButton("."))
 
 
+
+
 # Arthemetic operations
 
 button_add = Button(root, text="+", padx=27, pady=15, command=lambda:myButton_add())
@@ -110,6 +117,9 @@ button_mod = Button(root, text="%", padx=30, pady=15, command=lambda:myButton_mo
 button_equal = Button(root, text="=", padx=30, pady=15, command=lambda:myButton_equal())
 button_clear = Button(root, text="C", padx=30, pady=15, command=lambda:myButton_clear())
 button_rmv = Button(root, text="<-", padx=26, pady=15, command=lambda:myButton_rmv())
+
+
+
 
 # Button's Grids
 
